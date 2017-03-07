@@ -2,7 +2,7 @@ package demo
 
 class DemoController {
 
-    SomeClient someClient
+    SomeService someClient
 
     def index() {
         def result = someClient.someMethod('foo')
