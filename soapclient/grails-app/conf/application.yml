@@ -130,7 +130,7 @@ cxf:
     client:
         someClient:
             wsdl: http://localhost:8082/services/some?wsdl
-            clientInterface: demo.SomeClient
+            clientInterface: demo.SomeService
             serviceEndpointAddress: http://localhost:8082/services/some
             receiveTimeout: 120000
             connectionTimeout: 120000
